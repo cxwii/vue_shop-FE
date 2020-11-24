@@ -62,7 +62,7 @@ export default {
         // console.log(valid)
         if (!valid) return
         const { data: res } = await this.$http.post('login', this.loginForm)
-        console.log(res)
+        // console.log(res)
         if (res.meta.status !== 200) return this.$message.error(res.meta.msg)
         this.$message.success(res.meta.msg)
         window.sessionStorage.setItem('token', res.data.token)
