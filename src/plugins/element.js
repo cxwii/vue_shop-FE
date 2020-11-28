@@ -23,7 +23,11 @@ import {
   Tooltip,
   Pagination,
   Dialog,
-  MessageBox
+  MessageBox,
+  Tag,
+  Tree,
+  Select,
+  Option
 } from 'element-ui'
 // 导入的弹框提示(上面的Message,这里不知道为什么不能用下面这种方式了)
 // import { Message } from 'element-ui'
@@ -50,6 +54,10 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
 
 // 挂载的弹框提示
 Vue.prototype.$message = Message
