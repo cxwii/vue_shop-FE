@@ -27,7 +27,8 @@ import {
   Tag,
   Tree,
   Select,
-  Option
+  Option,
+  Cascader
 } from 'element-ui'
 // 导入的弹框提示(上面的Message,这里不知道为什么不能用下面这种方式了)
 // import { Message } from 'element-ui'
@@ -58,6 +59,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 
 // 挂载的弹框提示
 Vue.prototype.$message = Message
