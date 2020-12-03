@@ -31,7 +31,12 @@ import {
   Cascader,
   Alert,
   Tabs,
-  TabPane
+  TabPane,
+  Steps,
+  Step,
+  CheckboxGroup,
+  Checkbox,
+  Upload
 } from 'element-ui'
 // 导入的弹框提示(上面的Message,这里不知道为什么不能用下面这种方式了)
 // import { Message } from 'element-ui'
@@ -66,6 +71,11 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Upload)
 
 // 挂载的弹框提示
 Vue.prototype.$message = Message
